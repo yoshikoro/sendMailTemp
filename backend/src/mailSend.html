@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <style>
+    p {
+      color: blueviolet;
+    }
+
+    table.tbl {
+      border-style: solid;
+    }
+
+    table.tbl th {
+      border-style: solid;
+      color: red;
+    }
+
+    table.tbl td {
+      border-style: solid;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>タイトルに使うH1タグ</h1>
+  <h2>
+    <?!= USER ?>
+  </h2>
+  ここに送る本文を入れる(そのまま打つとこのような感じ)
+  <p>こちらは段落でｂｒタグは不要</p>
+  <a href="<?!=URL ?>">ここにはGASでURLを動的に入れる事ができる</a><br>
+  <br>
+  下にはテーブルの例
+  <table class="tbl">
+    <tr>
+      <th>ヘッダー①</th>
+      <th>ヘッダー②</th>
+    </tr>
+    <tr>
+      <td>テーブル中身①</td>
+      <td>テーブル中身②</td>
+    </tr>
+    <tr>
+      <td>テーブル中身③</td>
+      <td>テーブル中身④</td>
+    </tr>
+  </table>
+</body>
+
+</html>
