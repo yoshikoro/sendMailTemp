@@ -1,4 +1,4 @@
-# backendGasTemp
+# backendGas sendMailTemp
 
 ## GAS を LOCAL で構築する為のテンプレートです
 
